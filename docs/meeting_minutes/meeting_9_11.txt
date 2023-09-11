@@ -1,0 +1,27 @@
+Date : 9/11
+Time : 9:30 - 10:15 PM
+Location : Virtual meeting
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Documentation Collaboration
+* Division of Documentation Tasks
+* Project Progress Update - First Deliverable
+
+Meeting summary :
+we all worked together on making documents for our project. We split the work so that each of us could focus on a part of the documentation. This way, we can make sure our project documents are clear and organized. We also shared that we're doing well with our first project part. We're sticking to our plan and working together to reach our goals.
+
+Next meeting Agenda :
+Discussing about next process
+Working on code implementation after first deliverable
+
+Meeting Duration : 45 Minutes
