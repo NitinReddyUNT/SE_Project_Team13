@@ -1,0 +1,4 @@
+root
+    /docs -> contains meeting_minutes and deliverable/planning docs
+    /meeting_minutes -> contains all minutes of meetings
+
