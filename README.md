@@ -1,4 +1,4 @@
-# SE_Project_Team13
+# SE_Project_Teamsigma
 This group is all about creating a dynamic project for the course of software engineering
 I would like to give you a brief introduction to our project Idea which is "SAFEGUARDING THE DIGITAL WORLD DATA SHARING WITH PROXY RE-ENCRYPTION USING BLOCKCHAIN"
 The evolution of the Internet of Things has seen data sharing as one of its most useful applications in cloud computing. As eye-catching as this technology has been, data security remains one of the obstacles it faces since the wrongful use of data leads to several damages.
