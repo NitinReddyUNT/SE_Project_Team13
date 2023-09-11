@@ -12,8 +12,8 @@ The security analysis and evaluation of our scheme show the promise of our appro
 **Folder Structure:**
 
     .
-    ├── docs                                 # Documentation files including planning docs
-      ├── meeting_minutes                    # Automated tests 
+    ├── docs                                 # Documentation files including planning and deliverable docs and team presentations
+      ├── meeting_minutes                    # Meeting minutes files for every meeting 
     ├── src                                  # Source code files 
       ├── test                               # Automated tests 
       ├── main                               
