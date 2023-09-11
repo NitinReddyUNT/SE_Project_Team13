@@ -1,0 +1,29 @@
+Date : 9/08
+Time : 9:30 - 10:15 PM
+Location : Discovery Park
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Realisation of Project Implementation Challenges
+* Discussion and Exploration of Alternative Approaches
+* GitHub and Trello Setup and Training
+
+Meeting summary :
+we realised that our original project plan had some big challenges we couldn't overcome. So, we decided to look for new ways to make our project work. We also set up accounts on GitHub and Trello, which are important tools to help us manage our project better. We spent some time learning how to use GitHub, so everyone knows how to work with it. Even though we're changing our plan, we're excited about the new ideas we're exploring, and we're ready to move forward together
+
+Next meeting agenda :
+* Documentation Collaboration
+* Division of Documentation Tasks
+* Project Progress Update - First Deliverable
+
+
+Meeting Duration : 45 Minutes

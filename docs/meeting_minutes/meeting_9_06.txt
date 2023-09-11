@@ -1,0 +1,26 @@
+Date : 09/06
+Time : 9:30 - 10:25 PM
+Location : Union Main campus
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Task Assignment for Project Implementation
+* Discussion on Project Requirements
+
+Meeting summary:
+we gave each person in the team specific jobs to figure out how to make our project happen. We also talked about all the things our project needs to work well, like what it has to do and what we need to make it happen. We're staying on track with our plan, and we're sure that by working together, we'll make our project a success.
+
+Next meeting agenda :
+* GitHub and Trello Setup and Training
+
+
+Meeting Duration : 55 Minutes
