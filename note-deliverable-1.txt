@@ -1,8 +1,8 @@
 root
-    /docs -> contains meeting_minutes and deliverable/planning docs for deliverable 1:
-        (Deliverable note 1 changes)
+    /docs -> contains meeting_minutes and deliverable/planning docs
+    /meeting_minutes -> contains all minutes of meetings
+        docs for deliverable 1:
         TeamSigma-del-1.pptx
         Team-Sigma-Deliverable-1.docx
 
         /meeting_minutes -> contains all minutes of meetings from beginning till 9/10
-
