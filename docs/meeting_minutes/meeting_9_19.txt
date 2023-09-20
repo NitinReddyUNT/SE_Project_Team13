@@ -1,0 +1,30 @@
+Date : 09/19
+Time : 9:30 - 10:25 PM
+Location : Zoom meeting
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Task Assignment for Project Implementation
+* Discussion on Project Requirements
+
+Meeting summary:
+1)The discussion is about Encrypt data both at rest and in transit to protect it from unauthorized access And Gathering feedback from users and stakeholders to continuously improve the security and usability of your data sharing solution
+2)Suggestions we got from them are to Conduct regular security audits and penetration testing to identify vulnerabilities and ensure the system's integrity.
+3)We also focused on educating users and participants about the importance of data security and responsible data sharing practices.
+4)We need to Establish clear legal agreements and contracts with data sharing partners to define responsibilities and liabilities.
+5)We are going to focus on the security landscape and threats which can evolve over time. Continuously assess and adapt your security measures to address new challenges and vulnerabilities in safeguarding digital data with proxy re-encryption using blockchain
+
+Next meeting agenda :
+* Coding tasks assignment
+
+
+Meeting Duration : 55 Minutes
