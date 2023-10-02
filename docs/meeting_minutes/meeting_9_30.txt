@@ -1,0 +1,29 @@
+Date : 9/30
+Time : 7:30 - 10:15 PM
+Location : Zoom
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Deliverable 2
+
+Meeting summary :
+* We have extensively deliberated both the functional and non-functional requirements, strategically allocating tasks among team members.
+* Collaboratively, we crafted UML diagrams with ingenuity.
+* Introducing fresh cards on Trello, we shared our insights aligning with the content on these cards.
+* Overcoming challenges collectively, we executed our thoughts and novel ideas to enhance project efficiency.
+* Our goal is to deliver an optimal content source according to the Canvas, and we are eager to further enhance our project collaboratively as a cohesive team.
+
+Next meeting agenda :
+* Deliverable 2 full document discussion
+
+
+Meeting Duration : 2 Hours 45 Minutes
