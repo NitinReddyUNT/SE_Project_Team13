@@ -1,6 +1,7 @@
 root
     /docs -> contains meeting_minutes and deliverable/planning docs
     /meeting_minutes -> contains all minutes of meetings
-        docs for deliverable 2: (In Docs)
-        Team-Sigma-Deliverable-2.docx
+        #docs for deliverable 2: (In Docs)
+        /deliverable_2
+            Team-Sigma-Deliverable-2.docx
         /meeting_minutes -> contains all minutes of meetings from beginning till 09/30
