@@ -1,5 +1,5 @@
 Date : 10/03
-Time : 1:30 - 2:00 PM
+Time : 12:30 - 2:00 PM
 Location : Zoom
 Attendes :
 1)Jyothi Anjan Manini (Student Id: 11715079)
@@ -16,16 +16,22 @@ Agenda :
 * Deliverable 2 Final document
 
 Meeting summary :
-* We discussed main components of data encryption and brainstormed the strategies to implement the same.
-* We came up with data flow design for Data user.
-* Together, we have built a solid plan and finalized on the best tools to use for our project considering both code and time efficiency.
-* Furthermore, we are ready to start building on phase 1 of data transfer flow including user registration and login modules.
-* We decided on using Netbeans for our application development to support Java server side code
-* We discussed on splitting and assigning coding tasks for phase 1
+* Reading Partner gorup's Deliverable 2 document(20 minutes)
+* Own Group discussion to identify suggestions to be given for partner team
+* Feedback session with paired team on Deliverable 2
+* Own Group discussion to discuss the feedback given by the partner team
 
+Meeting summary : In today's meeting on Zoom, we had a group of eight attendees.
+We discussed various topics, including reading our partner group's Deliverable 2 document for 20 minutes.
+We also had a discussion within our own group to come up with suggestions for our partner team.
+Later, we had a feedback session with our partner team regarding their Deliverable 2.
+
+The meeting concluded with another discussion within our own group to talk about the feedback provided by the partner team.
+Our next meeting will focus on discussing the coding for phase 1 of the project.
+The meeting lasted for 1 hour and 30 minutes.
 
 Next meeting agenda :
-* Project phase 1 coding follow up and deliverable 3 discussion
+* Project phase 1 coding discussion
 
 
 Meeting Duration : 30 Minutes
