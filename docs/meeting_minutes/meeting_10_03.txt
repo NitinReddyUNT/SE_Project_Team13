@@ -1,0 +1,31 @@
+Date : 10/03
+Time : 1:30 - 2:00 PM
+Location : Zoom
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Deliverable 2 Final document
+
+Meeting summary :
+* We discussed main components of data encryption and brainstormed the strategies to implement the same.
+* We came up with data flow design for Data user.
+* Together, we have built a solid plan and finalized on the best tools to use for our project considering both code and time efficiency.
+* Furthermore, we are ready to start building on phase 1 of data transfer flow including user registration and login modules.
+* We decided on using Netbeans for our application development to support Java server side code
+* We discussed on splitting and assigning coding tasks for phase 1
+
+
+Next meeting agenda :
+* Project phase 1 coding follow up and deliverable 3 discussion
+
+
+Meeting Duration : 30 Minutes
