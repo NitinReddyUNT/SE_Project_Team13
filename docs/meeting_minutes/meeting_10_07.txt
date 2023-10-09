@@ -1,0 +1,30 @@
+Date : 10/07
+Time : 9:30 - 10:30 AM
+Location : Virtual Zoom
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Discussion about deliverable 3
+
+Meeting summary:
+1) Software requirements for phase 1 implementation was finalized.
+2) Discussed data flow for the project so we can finish working on UML diagram for Error use case scenario.
+3) Parallelly working on Sequence diagram and assigned roles according to module 1.
+4) Develop separate registration and login modules for Data User and Data Owner.
+
+Next meeting Agenda :
+* Discuss on deliverable 3 document creation
+
+Meeting Duration : 60 Minutes
+
+
+

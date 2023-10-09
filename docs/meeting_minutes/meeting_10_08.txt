@@ -1,0 +1,28 @@
+Date : 10/08
+Time : 9:30 - 10:30 AM
+Location : Virtual Zoom
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Discussion about drafting document for deliverable 3
+
+Meeting summary:
+1. In this meeting, we discussed about drafting deliverable 3 document according to rubrics and started working on it. 
+2. Discussed about password policies for login and registration modules.
+
+Next meeting Agenda :
+* Discuss on progress of implementation of phase 1 for the project
+
+Meeting Duration : 60 Minutes
+
+
+
