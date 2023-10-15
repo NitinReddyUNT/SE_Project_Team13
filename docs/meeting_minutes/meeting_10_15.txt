@@ -13,7 +13,7 @@ Attendes :
 9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
 
 Agenda :
-* Discussion about the progress of deliverable 3 coding & documentation
+* Discussion about the progress of deliverable 3 final documentation.
 
 Meeting summary:
 1. In this meeting, we discussed about core functionalities documentation for deliverable 3.
