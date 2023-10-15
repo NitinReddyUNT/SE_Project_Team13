@@ -1,0 +1,25 @@
+Date : 10/15
+Time : 10:00 - 11:00 AM
+Location : Virtual Zoom
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Discussion about the progress of deliverable 3 coding & documentation
+
+Meeting summary:
+1. In this meeting, we discussed about core functionalities documentation for deliverable 3.
+2. Discussed about the sequence of code commits to git according to functionalities.
+
+Next meeting Agenda :
+* Elaborated discussion on core functionalities.
+
+Meeting Duration : 60 Minutes
