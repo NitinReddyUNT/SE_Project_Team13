@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Safeguarding the Digital World Data Sharing with Proxy Re-Encryption using Blockchain</title>
+<title>Secure Data Sharing Using Blockchain Technology</title>
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
@@ -27,9 +27,8 @@
             <ul>
                   <li><a href="UserHome.jsp" class="current">Home</a></li>
                  <li><a href="SearchFile.jsp">Search File</a></li>
-                 <li><a href="ViewResponse.jsp">View Response</a></li>
-                  <li><a href="U_ViewDownload.jsp">Download</a></li>
 		<li><a href="UserLogin.jsp">LogOut</a></li>
+  
               
                   
                    
@@ -43,7 +42,7 @@
 <div id="templatemo_banner_wrapper">
 	<div id="templatemo_banner">
 	  <div id="templatemo_banner_content">
-        	<div class="header_01">Safeguarding the Digital World Data Sharing with Proxy Re-Encryption using Blockchain</div>
+        	<div class="header_01">Secure Data Sharing Using Blockchain Technology</div>
       </div>	
     
     	<div class="cleaner"></div>

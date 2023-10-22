@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Safeguarding the Digital World Data Sharing with Proxy Re-Encryption using Blockchain</title>
+<title>Secure Data Sharing Using Blockchain Technology</title>
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
@@ -28,8 +28,8 @@
                  <li><a href="OwnerHome.jsp"  class="current">HOME</a></li>
                  <li><a href="Upload.jsp">Upload</a></li>
                  <li><a href="DO_ViewFiles.jsp">View Files</a></li>
-                 <li><a href="DO_ViewRequest.jsp">View Request</a></li>
 		 <li><a href="DataOwner.jsp">logout</a></li>
+                 
                   
                    
 
@@ -42,7 +42,7 @@
 <div id="templatemo_banner_wrapper">
 	<div id="templatemo_banner">
 	  <div id="templatemo_banner_content">
-        	<div class="header_01">Safeguarding the Digital World Data Sharing with Proxy Re-Encryption using Blockchain</div>
+        	<div class="header_01">Secure Data Sharing Using Blockchain Technology</div>
       </div>	
     
     	<div class="cleaner"></div>
@@ -69,7 +69,7 @@
 		<form name="f" action="Adminlog.jsp" method="post" onSubmit="return valid();">
 		<tr>
 		<td height="36" colspan="2" align="center" bgcolor="#979700" class="paragraping2">
-                    <span style="color:#FFFFFF"><strong> WelCome : <%=username%> && Membership key is: <%=mskey%> </strong><strong></strong></span></td>
+                    <span style="color:#FFFFFF"><strong> WelCome : <%=username%> </strong><strong></strong></span></td>
 		</tr>
 		
          <td class="paragraping" colspan="2" align="center"><font size="2"><b><%
