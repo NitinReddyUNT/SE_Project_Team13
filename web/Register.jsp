@@ -1,11 +1,13 @@
+<!--This page is used to allow users to register in data user module by giving their details-->
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Safeguarding the Digital World Data Sharing with Proxy Re-Encryption using Blockchain</title>
+<title>Secure Data Sharing Using Blockchain Technology</title>
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
-
+<!--Style element is used to style the title of the project-->
 <style type="text/css">
 <!--
 .style1 {
@@ -18,7 +20,7 @@
 </head>
 <body>
 <div id="templatemo_header_wrapper">
-<!--  Free Web Templates by TemplateMo.com  -->
+<!--  The below block is used to display other tabs so that user can navigate -->
   <div id="templatemo_header">
     <div id="templatemo_menu">
       		<div id="templatemo_menu_left"></div>
@@ -26,9 +28,9 @@
                    <li><a href="index.html">HOME</a></li>
                  <li><a href="DataOwner.jsp">Data Owner</a></li>
                   <li><a href="UserLogin.jsp" class="current">Data User</a></li>
-                    <li><a href="TA.jsp">Trusted Authority</a></li>
+                  <li><a href="TA.jsp">Trusted Authority</a></li>
                     <li><a href="ProxyServer.jsp">Proxy Server</a></li>
-                    <li><a href="CSP.jsp">CSP</a></li>
+                    <li><a href="CSP.jsp" class="current">CSP</a></li>
                   
                   
                    
@@ -38,11 +40,11 @@
     
     </div>  <!-- end of header -->
 </div> <!-- end of header wrapper -->
-
+<!--This block is used to display the title of the project-->
 <div id="templatemo_banner_wrapper">
 	<div id="templatemo_banner">
 	  <div id="templatemo_banner_content">
-        	<div class="header_01">Safeguarding the Digital World Data Sharing with Proxy Re-Encryption using Blockchain</div>
+        	<div class="header_01">Secure Data Sharing Using Blockchain Technology</div>
       </div>	
     
     	<div class="cleaner"></div>
@@ -57,6 +59,7 @@
 
 	<table width="1000" border="0">
   <tr>
+      <!-- To ask for user details like username, password, dob for registration -->
      <td><img src="images/register.jpg" width="400" height="300"/></td>
 	 
 	 <td>
@@ -71,7 +74,7 @@
 		</tr>
 		<tr>
 		<td height="47" class="paragraping">PASSWORD:</td>
-		<td><input type="password" name="pass" class="input1" minlength="8" required></td>
+		<td><input type="password" name="pass" class="input1" minlenght="8" required></td>
 		</tr>
                     <tr>
 		<td height="47" class="paragraping">Date Of Birth</td>
@@ -105,12 +108,13 @@
 		
 		</td>
 		</tr>
-		
+		<!-- To display hyperlink to login page so that user can login if he already have an account-->
 		<tr>
                     <tr>
 		<td height="47" class="paragraping">Already Have An Account</td>
                 <td><a href='UserLogin.jsp'>Login</a></td>
 		</tr>
+                    <!-- If login credentials are wrong display invalid credentials-->
          <td class="paragraping" colspan="2" align="center"><font size="2"><b><%
 							String message=request.getParameter("message");
 							if(message!=null && message.equalsIgnoreCase("fail"))
@@ -131,3 +135,4 @@
 
 
 </html>
+

@@ -1,9 +1,10 @@
+<!--This page is used to display whether user registration is successful or not-->
 <%@page import="com.action.Queries"%>
 <%@page import="com.action.Dbconnection"%>
 <%@page import="java.sql.*"%>
 <%
 	
-	
+<!--Getting user details to search for user in database-->	
 	int count=0;
 	String username=request.getParameter("user");
        
@@ -19,7 +20,7 @@
 	
 	try
 	{
-
+<!--Setting up connection with database to insert data user report-->
 Connection con=Dbconnection.getConnection();
 Statement st=con.createStatement();
 	ResultSet rs=Queries.getExecuteQuery("select count(*) from user where email='"+email+"'");
@@ -32,15 +33,17 @@ Statement st=con.createStatement();
 		
 		if(i==0)
 		{
+                    <!--If no record is inserted, display registration failed-->
 		%>
 			<script type="text/javascript">
-				window.alert("Resiter Fail..!");
+				window.alert("Register Fail..!");
 				window.location="Register.jsp";
 			</script>
 		<%
 		}
 		else
 		{
+                <!--If a record is inserted, display registration successful-->
 		%>
 			<script type="text/javascript">
 				window.alert("New User Register Success..!");
@@ -51,6 +54,7 @@ Statement st=con.createStatement();
 	}
 	else
 	{
+        <!--If the user is a duplicate display user id already exists-->
 	%>
 			<script type="text/javascript">
 				window.alert("User Alredy Exist For This User ID...");
@@ -64,4 +68,4 @@ Statement st=con.createStatement();
 	{
 	out.println(e);
 	}
-%>                                                                                                                                                                                                                                                             
+%>
