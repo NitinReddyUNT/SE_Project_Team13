@@ -1,38 +1,38 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Safeguarding the digital world data sharing with proxy re-encryption using Blockchain</title>
-<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<%@page contentType="text/html" pageEncoding="UTF-8"%>//sets the JSP page's content type and page encoding.
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">//declares the HTML page's document type.
+<html xmlns="http://www.w3.org/1999/xhtml">//the HTML element is opened.
+<head>//opens the head element
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />//determines the HTML page's character set and content type.
+<title>Secure Data Sharing Using Blockchain Technology</title>//establishes the HTML page's title.
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />//Links to the HTML page's CSS stylesheet.
 
-<style type="text/css">
-<!--
-.style1 {
-	color: #00CC00;
-	font-weight: bold;
-	font-size: 16px;
-}
--->
-</style>
-</head>
-<body>
-<div id="templatemo_header_wrapper">
+<style type="text/css">//a CSS style block is started.
+<!--//a CSS style block comment is started.
+.style1 {//initiates a CSS rule for the class.style1.
+	color: #00CC00;//green is chosen as the text's color.
+	font-weight: bold;//sets the text's font weight to bold.
+	font-size: 16px;//set font size of text to 16 pixels
+}//end css
+-->//end comment in CSS style block
+</style>//end css style block
+</head>//close head element
+<body>//open body element
+<div id="templatemo_header_wrapper">//open div element with id
 <!--  Free Web Templates by TemplateMo.com  -->
   <div id="templatemo_header">
     <div id="templatemo_menu">
-      		<div id="templatemo_menu_left"></div>
-            <ul>
-                 <li><a href="index.html">HOME</a></li>
-                 <li><a href="DataOwner.jsp" class="current">Data Owner</a></li>
-                  <li><a href="UserLogin.jsp">Data User</a></li>
-                    <li><a href="TA.jsp">Trusted Authority</a></li>
-                    <li><a href="ProxyServer.jsp">Proxy Server</a></li>
-                    <li><a href="CSP.jsp">CSP</a></li>
+      		<div id="templatemo_menu_left"></div>//add div element with id
+            <ul>//open unorderd list element
+                 <li><a href="index.html">HOME</a></li>//adds a link to the index.html page in the list item element.
+                 <li><a href="DataOwner.jsp" class="current">Data Owner</a></li>//Adds a list item element with a reference to the current class and a link to the DataOwner.jsp page.
+                  <li><a href="UserLogin.jsp">Data User</a></li>//a link to the UserLogin.jsp page is added as a list item element.
+                  <li><a href="TA.jsp">Trusted Authority</a></li>//Links a list item's element to the TA.jsp page.
+                    <li><a href="ProxyServer.jsp">Proxy Server</a></li>//establishes a link to the ProxyServer.jsp page in the list item element of the list.
+                    <li><a href="CSP.jsp" class="current">CSP</a></li>//Inserts a list item element that links to the current class and CSP.jsp page.
                   
                    
 
-            </ul>    	
+            </ul>//closes unordered list    	
 		</div> <!-- end of menu -->
     
     </div>  <!-- end of header -->
@@ -41,7 +41,7 @@
 <div id="templatemo_banner_wrapper">
 	<div id="templatemo_banner">
 	  <div id="templatemo_banner_content">
-        	<div class="header_01">Safeguarding the digital world data sharing with proxy re-encryption using Blockchain</div>
+        	<div class="header_01">Secure Data Sharing Using Blockchain Technology</div>
       </div>	
     
     	<div class="cleaner"></div>
