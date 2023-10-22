@@ -1,15 +1,15 @@
+<!--Import Statements-->
 
-
-<%@page import="java.sql.ResultSet"%>
-<%@page import="com.action.Queries"%>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="java.sql.ResultSet"%> <!--This import statement calls ResultSet class which contains methods which helps to set,get data from ResultSet and update data within ResultSet -->
+<%@page import="com.action.Queries"%> <!--This import statement calls a custom class which has methods for running SQL queries on a database-->
+<%@page contentType="text/html" pageEncoding="UTF-8"%> <!--This Import statement sets the character encoding to UTF-8 and the content type to text/html-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Secure Data Sharing Using Blockchain Technology</title>
-<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
-
+<html xmlns="http://www.w3.org/1999/xhtml"> <!-- This Statement indicates the code as being composed in the XHTML 1.0 Transitional namespace to the browser-->
+<head> <!-- Start of Head Tag-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <!-- this statment specifies the encoding and type of the document for web browsers-->
+<title>Secure Data Sharing Using Blockchain Technology</title> <!-- we are listing project title using title tag.-->
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" /> <!--here in this we are referring templatemo_style.css class-->
+<!-- The browser is informed that the code is CSS code by the type="text/css" property --> 
 <style type="text/css">
 <!--
 .style1 {
@@ -20,6 +20,7 @@
 -->
 </style>
 </head>
+<!--start of body tag which contains visible content of webpage--> 
 <body>
 <div id="templatemo_header_wrapper">
 <!--  Free Web Templates by TemplateMo.com  -->
@@ -40,7 +41,7 @@
     </div>  <!-- end of header -->
 </div> <!-- end of header wrapper -->
 
-<div id="templatemo_banner_wrapper">
+<div id="templatemo_banner_wrapper"> <!-- start of templatemo banner wrapper-->
 	<div id="templatemo_banner">
 	  <div id="templatemo_banner_content">
         	<div class="header_01">Secure Data Sharing Using Blockchain Technology</div>
@@ -51,7 +52,8 @@
 </div> <!-- end of banner wrapper -->
 
 <div id="templatemo_content_wrapper">
-	 <%String username=(String)session.getAttribute("username");
+         <!--Retrieves the session's ID, email, mskey, and username.-->
+	 <%String username=(String)session.getAttribute("username"); 
          String mskey=(String)session.getAttribute("mskey");
          String email=(String)session.getAttribute("email");
          String id=(String)session.getAttribute("id");
@@ -60,12 +62,12 @@
 	<br />
 
         <center>
-         
+                <!--Shows "SEARCH FILES HERE" as the heading.-->
                    <h3>SEARCH FILES HERE </h3>
             <form action="SearchAction.jsp" method="post">
 	<table border="1"  width="400">
             <tr>
-               
+               <!--Enter Key-->
                 <th>Enter Key:</th><td> <input type="text" name="keyword" placeholder="Enter Keyword" required/><td></td>
             </tr>
              <tr>
