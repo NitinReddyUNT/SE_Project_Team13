@@ -6,7 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Safeguarding the Digital World Data Sharing with Proxy Re-Encryption using Blockchain</title>
+<title>Secure Data Sharing Using Blockchain Technology</title>
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
@@ -18,10 +18,10 @@
 }
 -->
 </style>
+<%-- Header Menu --%>
 </head>
 <body>
 <div id="templatemo_header_wrapper">
-<!--  Free Web Templates by TemplateMo.com  -->
   <div id="templatemo_header">
     <div id="templatemo_menu">
       		<div id="templatemo_menu_left"></div>
@@ -40,11 +40,11 @@
     
     </div>  <!-- end of header -->
 </div> <!-- end of header wrapper -->
-
+<%-- Adding title of project --%>
 <div id="templatemo_banner_wrapper">
 	<div id="templatemo_banner">
 	  <div id="templatemo_banner_content">
-        	<div class="header_01">Safeguarding the Digital World Data Sharing with Proxy Re-Encryption using Blockchain</div>
+        	<div class="header_01">Secure Data Sharing Using Blockchain Technology</div>
       </div>	
     
     	<div class="cleaner"></div>
@@ -62,6 +62,7 @@
      <td><img src="images/userlogin.jpg" width="300" height="300"/></td>
 	 
 	 <td>
+             <%-- Form details for logging in as we do not have registration pages for CSP, TA and Proxy modules --%>
 	 <table align="center" width="400" style="border:1px solid green;" bgcolor="#FFFFFF">
 		<form name="f" action="TAlog.jsp" method="post" onSubmit="return valid();">
 		<tr>
@@ -85,7 +86,7 @@
 		</tr>
 		
 		<tr>
-                  
+                  <%-- Fail message if form returns error--%>
          <td class="paragraping" colspan="2" align="center"><font size="2"><b><%
 							String message=request.getParameter("message");
 							if(message!=null && message.equalsIgnoreCase("fail"))
