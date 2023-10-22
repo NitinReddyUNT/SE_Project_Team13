@@ -1,4 +1,4 @@
-
+<!--  This code is used to display upload files page in data owner module  -->
 <%@page import="com.sun.org.apache.xerces.internal.impl.dv.util.Base64"%>
 <%@page import="javax.crypto.SecretKey"%>
 <%@page import="javax.crypto.KeyGenerator"%>
@@ -10,7 +10,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Secure Data Sharing Using Blockchain Technology</title>
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
-
+<!--style element used for styling the title of the project-->
 <style type="text/css">
 <!--
 .style1 {
@@ -22,8 +22,8 @@
 </style>
 </head>
 <body>
+<!-- This part displays menu used to navigate to other tabs from Upload Files tab -->
 <div id="templatemo_header_wrapper">
-<!--  Free Web Templates by TemplateMo.com  -->
   <div id="templatemo_header">
     <div id="templatemo_menu">
       		<div id="templatemo_menu_left"></div>
@@ -32,10 +32,6 @@
                  <li><a href="Upload.jsp"  class="current">Upload</a></li>
                  <li><a href="DO_ViewFiles.jsp">View Files</a></li>
 		 <li><a href="DataOwner.jsp">logout</a></li>
-                  
-                  
-                   
-
             </ul>    	
 		</div> <!-- end of menu -->
     
@@ -44,15 +40,13 @@
 <div id="templatemo_content_wrapper">
 	
 	<br />
-<%String username=(String)session.getAttribute("username");
+        <!--getting logged in owner detail using session storage-->
+        <%String username=(String)session.getAttribute("username");
          String mskey=(String)session.getAttribute("mskey");
          String email=(String)session.getAttribute("email");
          String id=(String)session.getAttribute("id");
          
-//Random r=new Random();
-//int hh=r.nextInt(1000000000-900)+700;
-
-
+//Using a key generator to create unique key for every file upload
  KeyGenerator keygen=KeyGenerator.getInstance("AES");
            keygen.init(128);
            SecretKey s=keygen.generateKey();
@@ -62,7 +56,7 @@
 
          %>
 	
-
+<!--This block is used to display a table to take input file details-->
 	<table width="1000" border="0">
   <tr>
      <td><img src="images/fileupload.jpg" width="300" height="300"/></td>
@@ -126,8 +120,7 @@
 
 
 
-
-
+<!--To display the file contents in text area element so that user can view it before uploading using file reader API-->
 <script type='text/javascript'>
 function loadFileAsText()
 {
