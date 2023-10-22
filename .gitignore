@@ -5,7 +5,11 @@
 .DS_Store
 /.DS_Store/
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /build/
+=======
+/build/
+>>>>>>> Stashed changes
 =======
 /build/
 >>>>>>> Stashed changes
