@@ -3,6 +3,7 @@
 <%@page import="com.action.Dbconnection"%>
 <%@page import="java.sql.Connection"%>
 <%@page import="java.sql.ResultSet"%>
+<%-- Verify if the login details exist on DB to show success page else display fail screen --%>
 <%
 String pass=null,uid=null;
 
@@ -20,6 +21,7 @@ ResultSet rs1=st1.executeQuery(sss1);
 if(rs1.next())
 {   
 %>
+<%-- Popup for success message --%>
 <script type="text/javascript">
     window.alert("Authority Login Sucess");
     window.location="TAHome.jsp";
