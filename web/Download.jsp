@@ -1,7 +1,6 @@
-<!--author-anjan-->
-<%@page import="com.action.Queries"%><!-- Methods for running SQL queries on a database are included in this custom class-->
-<%@page import="java.io.PrintWriter"%> <!--This statement calls the PrintWriter class-->
-<%@page contentType="text/html" pageEncoding="UTF-8"%><!--This Import statement sets the character encoding to UTF-8 and the content type to text/html-->
+<%@page import="com.action.Queries"%>
+<%@page import="java.io.PrintWriter"%> 
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
  // Retrieves the session's ID, email, mskey, and username.   
  String username=(String)session.getAttribute("username");

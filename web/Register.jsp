@@ -74,7 +74,7 @@
 		</tr>
 		<tr>
 		<td height="47" class="paragraping">PASSWORD:</td>
-		<td><input type="password" name="pass" class="input1" minlenght="8" required></td>
+		<td><input type="password" name="pass" class="input1" minlength="8" required></td>
 		</tr>
                     <tr>
 		<td height="47" class="paragraping">Date Of Birth</td>
