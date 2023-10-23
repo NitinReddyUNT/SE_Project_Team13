@@ -4,10 +4,6 @@
  * and open the template in the editor.
  */
 
-/**
- *
- * @author Sankeerth
- */
 import java.io.IOException;
 import javax.servlet.ServletException;
 import static org.junit.Assert.assertEquals;
