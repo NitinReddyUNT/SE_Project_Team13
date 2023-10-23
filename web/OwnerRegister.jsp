@@ -30,7 +30,7 @@
                   <li><a href="UserLogin.jsp">Data User</a></li>
                   <li><a href="TA.jsp">Trusted Authority</a></li>
                     <li><a href="ProxyServer.jsp">Proxy Server</a></li>
-                    <li><a href="CSP.jsp" class="current">CSP</a></li>
+                    <li><a href="CSP.jsp">CSP</a></li>
                      
                    
 

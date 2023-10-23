@@ -28,7 +28,7 @@
                   <li><a href="UserLogin.jsp">Data User</a></li><!--a link to the UserLogin.jsp page is added as a list item element.-->
                   <li><a href="TA.jsp">Trusted Authority</a></li><!--Links a list item's element to the TA.jsp page.-->
                     <li><a href="ProxyServer.jsp">Proxy Server</a></li><!--establishes a link to the ProxyServer.jsp page in the list item element of the list.-->
-                    <li><a href="CSP.jsp" class="current">CSP</a></li><!--Inserts a list item element that links to the current class and CSP.jsp page.-->
+                    <li><a href="CSP.jsp">CSP</a></li><!--Inserts a list item element that links to the current class and CSP.jsp page.-->
                   
                    
 
