@@ -97,7 +97,7 @@ CREATE TABLE `owner` (
 
 /*Data for the table `owner` */
 
-insert  into `owner`(`id`,`username`,`password`,`email`,`dob`,`location`,`gender`,`mobile`,`mkey`) values (1,'test','123','test@gmail.com','2023-08-28','Denton','Male','9640257292','78655');
+insert  into `owner`(`id`,`username`,`password`,`email`,`dob`,`location`,`gender`,`mobile`,`mkey`) values (1,'test','12345678','test@gmail.com','2023-08-28','Denton','Male','9640257292','78655');
 
 /*Table structure for table `server` */
 
@@ -144,7 +144,7 @@ CREATE TABLE `user` (
 
 /*Data for the table `user` */
 
-insert  into `user`(`id`,`username`,`password`,`email`,`dob`,`location`,`gender`,`mobile`,`mskey`) values (1,'testuser','123','testuser@gmail.com','06/07/1995','denton','male','987543210','78665');
+insert  into `user`(`id`,`username`,`password`,`email`,`dob`,`location`,`gender`,`mobile`,`mskey`) values (1,'testuser','12345678','testuser@gmail.com','06/07/1995','denton','male','987543210','78665');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

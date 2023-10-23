@@ -68,11 +68,6 @@
 		<td height="36" colspan="2" align="center" bgcolor="#979700" class="paragraping2">
                     <span style="color:#FFFFFF"><strong> File Upload Here</strong><strong></strong></span></td>
 		</tr>
-		
-                <tr>
-		<td height="47" class="paragraping">Random Number</td>
-		<td><input type="text"    name="number" value="<%=skey%>"   class="input1" readonly></td>
-		</tr>
                
 		<tr>
 		<td height="47" class="paragraping">Choose File</td>
