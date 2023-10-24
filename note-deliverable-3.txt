@@ -1,0 +1,14 @@
+/*All files and directories for phase1*/
+root
+    /docs -> contains meeting_minutes and deliverable/planning docs
+    /meeting_minutes -> contains all minutes of meetings from 10/3 to 10/23
+        #docs for deliverable 3: (In Docs)
+        /deliverable_3
+            Team-Sigma-Deliverable-3.pdf - Full doc of deliverable 3 submission
+            inspection-code-team-sigma - Core functionalities for phase 1 with all the code
+        /meeting_minutes -> contains all minutes of meetings from beginning till 10/22
+
+    /phase1 -> includes all code for phase 1
+    /install -> SQL install file with SQL commands to run after installation
+    /libs -> includes all libraries required for phase 1
+    /test -> all test files for phase 1
