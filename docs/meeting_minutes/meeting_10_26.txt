@@ -1,0 +1,26 @@
+Date : 10/26
+Time : 10:00 - 11:00 PM
+Location : Virtual Zoom
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Aspects to cover for phase 2
+
+Meeting summary:
+1. We have decided to deliver everything under phase 2 and partly under phase 3 for this deliverable.
+2. Tasks are split and assigned and we have planned to document in parallel with code.
+3. All aspects were covered so we get 100 in this deliverable too.
+
+Next meeting Agenda :
+* Progress on deliverable 4.
+
+Meeting Duration : 60 Minutes
