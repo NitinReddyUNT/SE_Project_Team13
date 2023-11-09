@@ -30,7 +30,8 @@
             <ul>
                    <li><a href="OwnerHome.jsp">HOME</a></li>
                  <li><a href="Upload.jsp">Upload</a></li>
-                 <li><a href="DO_ViewFiles.jsp"  class="current">View Files</a></li>
+                 <li><a href="DO_ViewFiles.jsp"  class="current">View Files</a></li>                 
+                 <li><a href="DO_ViewRequest.jsp">View Request</a></li>
 		 <li><a href="DataOwner.jsp">logout</a></li>
             </ul>    	
 		</div> <!-- end of menu -->
@@ -56,7 +57,7 @@
 <center>
         <table border="1">
             <tr>
-                <th>FileName</th> <th>File Data</th><th>Date</th> 
+                <th>FileName</th> <th>File Data</th> <th>Cipher Data</th><th>Date</th> 
             </tr>
            <%try{
                ResultSet r=Queries.getExecuteQuery("select * from file  where owner='"+id+"'");
@@ -66,6 +67,7 @@
                  <tr>
                      <td><%=r.getString("filename")%></td>
                      <td><textarea cols="50" rows="10"><%=r.getString("filedata")%></textarea></td>
+                     <td><textarea cols="50" rows="10"><%=r.getString("cipher")%></textarea></td>
                      <td><%=r.getString("date")%></td>
                     
                     
@@ -106,4 +108,5 @@ function loadFileAsText()
 }
 </script>
 </html>
+
 
