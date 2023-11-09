@@ -1,0 +1,26 @@
+Date : 10/17
+Time : 10:00 - 11:00 AM
+Location : Virtual Zoom
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Removing code functionalities.
+
+Meeting summary:
+1. Connect was to work on class diagram and to collate on any missing tasks agreed on our phase 1.
+2. Cross verification of codes between team members so we wont have any lag at the end moment.
+3. Unit cases was tough to work on as we chose JSP — technology which wasn’t meant for designing unit test cases.
+
+Next meeting Agenda :
+* Reviewing unit tests.
+
+Meeting Duration : 60 Minutes

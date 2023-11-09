@@ -1,0 +1,26 @@
+Date : 10/16
+Time : 10:00 - 11:00 AM
+Location : Virtual Zoom
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Discussion about how to update code on github.
+
+Meeting summary:
+1. Meeting to review the changes and follow up on any assistance required to complete the deliverable 3 document.
+2. Discussion on how to push codes and merge and other aspects of using GITHUB.
+3. Working on use case error case and UML digram for phase 1 of this deliverable.
+
+Next meeting Agenda :
+* Removing code functionalities.
+
+Meeting Duration : 60 Minutes
