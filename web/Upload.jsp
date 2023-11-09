@@ -30,7 +30,8 @@
             <ul>
                    <li><a href="OwnerHome.jsp">HOME</a></li>
                  <li><a href="Upload.jsp"  class="current">Upload</a></li>
-                 <li><a href="DO_ViewFiles.jsp">View Files</a></li>
+                 <li><a href="DO_ViewFiles.jsp">View Files</a></li>                 
+                 <li><a href="DO_ViewRequest.jsp">View Request</a></li>
 		 <li><a href="DataOwner.jsp">logout</a></li>
             </ul>    	
 		</div> <!-- end of menu -->
@@ -63,17 +64,18 @@
 	 
 	 <td>
 	 <table align="center" width="500" style="border:1px solid green;" bgcolor="#FFFFFF">
-		 <form name="f2" action="Upload2.jsp" method="post" style="margin-right:  50px">
+                 <form name="f2" action="Upload1.jsp" method="post" style="margin-right:  50px">
+		 <!--<form name="f2" action="Upload2.jsp" method="post" style="margin-right:  50px">-->
                        <tr>
 		<td height="36" colspan="2" align="center" bgcolor="#979700" class="paragraping2">
                     <span style="color:#FFFFFF"><strong> File Upload Here</strong><strong></strong></span></td>
 		</tr>
-		
+               
                 <tr>
 		<td height="47" class="paragraping">Random Number</td>
 		<td><input type="text"    name="number" value="<%=skey%>"   class="input1" readonly></td>
-		</tr>
-               
+                </tr>
+		                
 		<tr>
 		<td height="47" class="paragraping">Choose File</td>
 		<td><input type="file"  id="file" name="file"  onchange="loadFileAsText()"  class="input1" required></td>
