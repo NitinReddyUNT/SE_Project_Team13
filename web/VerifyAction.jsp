@@ -33,6 +33,8 @@
             <ul>
                   <li><a href="UserHome.jsp">Home</a></li>
                   <li><a href="SearchFile.jsp" class="current">Search File</a></li>
+                  <li><a href="ViewResponse.jsp" class="current">View Response</a></li>
+                  <li><a href="U_ViewDownload.jsp">Download</a></li>
 		  <li><a href="UserLogin.jsp">LogOut</a></li>
               
                   
@@ -88,16 +90,27 @@
 	Connection con=Dbconnection.getConnection();
         // To run SQL statements, creates an Statement object.
     	Statement st=con.createStatement();
-        // Runs a SQL query in order to retrieve all of the file's data (ID included).
- ResultSet i=st.executeQuery("select * from file where id='"+fid+"'");
- // The file exists if the query returns a row.
+        // Runs a SQL query in order to retrieve all of the file's data (ID included) based on Condition u_status="Processed".
+  ResultSet i=st.executeQuery("select * from request where u_status='Processed' and id='"+rid+"' and fid='"+fid+"' and re_enckkey='"+pkey+"'");
+ // Checks if the ResultSet Does contain any rows
  if(i.next()){
-          //From the result set, extracts the file data.
-          String file_data=i.getString("filedata");
-       
-        // Assign file data to the current session.
-        session.setAttribute("data",file_data);
-   
+          //Gets the encrypted file name from the ResultSet
+          String re_encfile=i.getString("re_encfile");
+    //Starts a timer to measure the decryptioin time.    
+    long start=System.nanoTime();
+        //Creating an object named decryption.
+        decryption d=new decryption();
+        // Here we are decrypting the decrypting the file name again using the encryption key 'pkey'.We have taken this security measure to prevent attackers from decrypting the file name using encryption key.
+        String data=d.decrypt(re_encfile, pkey);
+        // Here we are decrypting the decrypted file name using the encrypted key 'pkey'.We have taken this security measure to avoid attacks from hackers from decrypting the file name using the known encryption key.
+        String data2=d.decrypt(data, pkey);
+        // Here we are setting the session attribute with decrypted file data.
+        session.setAttribute("data",data2);
+    // Below command stops the timer and calculate the total decrytion time.
+    long end=System.nanoTime();
+    long total=end-start;
+   //Insert the file name and decryption time into table. 
+   Queries.getExecuteUpdate("insert into dec_time values('"+fname+"','"+total+"')");
             %>
             <!--Present the file's contents as a table.-->
             <h3>File Data</h3>

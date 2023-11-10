@@ -34,6 +34,8 @@
             <ul>
                   <li><a href="index.html">Home</a></li>
                   <li><a href="SearchFile.jsp" class="current">Search File</a></li>
+                  <li><a href="ViewResponse.jsp">View Response</a></li>
+                  <li><a href="U_ViewDownload.jsp">Download</a></li>
 		  <li><a href="UserLogin.jsp">LogOut</a></li>
               
                   
@@ -82,11 +84,11 @@ try{
     // To run SQL statements, we are creating a Statement object.
     Statement st=con.createStatement();
    // Runs a SQL query to pick all files whose filename contains the user-inputted keyword.
-  ResultSet r=Queries.getExecuteQuery("select * from file where filename like'%"+keyword+"%'");
+    ResultSet r=Queries.getExecuteQuery("select * from blockchain where mdata like'%"+keyword+"%'");
   //Continues iterating through the query's results.
   while(r.next()){
      // Obtain the file's ID.
-    String fid=r.getString("id");  
+     String fid=r.getString("fid");   
     // Runs a SQL query to retrieve all of the file's data associated with the given ID.
     ResultSet rr=st.executeQuery("select * from file where id='"+fid+"'");
     // Repeats the process with the query's results.
@@ -94,7 +96,8 @@ try{
         %>
         <tr>
             
-            <td><%=fid%></td><td><%=rr.getString("filename")%></td><td><a href="VerifyAction.jsp?fid=<%=rr.getString("id")%>&fname=<%=rr.getString("filename")%>">Download</a></td>
+        <td><%=fid%></td><td><%=rr.getString("filename")%></td><td><a href="RequestAction.jsp?fid=<%=rr.getString("id")%>&fname=<%=rr.getString("filename")%>&owner=<%=rr.getString("owner")%>">Request</a></td>
+
         </tr>
         
         <%
