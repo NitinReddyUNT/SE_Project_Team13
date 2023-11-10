@@ -30,6 +30,8 @@
             <ul>
                   <li><a href="UserHome.jsp">Home</a></li>
                   <li><a href="SearchFile.jsp" class="current">Search File</a></li>
+                  <li><a href="ViewResponse.jsp">View Response</a></li>
+                  <li><a href="U_ViewDownload.jsp">Download</a></li>
 		  <li><a href="UserLogin.jsp">LogOut</a></li>
               
                   
