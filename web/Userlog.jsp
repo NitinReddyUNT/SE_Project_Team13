@@ -1,3 +1,4 @@
+<!--This page is used to display whether User login success or not-->
 <%@page import="java.sql.Statement"%>
 <%@page import="com.action.Dbconnection"%>
 <%@page import="java.sql.Connection"%>
@@ -28,6 +29,16 @@ try {
     if (rs1.next()) {
         // Retrieve user details from the result set
         String mskey = rs1.getString("mskey");
+    if(mskey.equals("waiting")){
+    
+%>
+<script type="text/javascript">
+    window.alert("Your Not Authorized by Trusted Authority");
+    window.location="UserLogin.jsp";
+    </script>
+<%   
+   
+}else{
         String email = rs1.getString("email");
         String id = rs1.getString("id");
 
@@ -45,6 +56,7 @@ try {
             window.location = "UserHome.jsp";
         </script>
 <%
+    }
     } else {
         // Redirect the user to the login page with a failure message if authentication fails
         response.sendRedirect("UserLogin.jsp?message=fail");
