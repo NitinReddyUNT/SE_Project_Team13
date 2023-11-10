@@ -1,4 +1,5 @@
 
+                 <!--This is the data owner home page-->
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%> <!--This Import statement sets the character encoding to UTF-8 and the content type to text/html-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -29,6 +30,7 @@
                  <li><a href="OwnerHome.jsp"  class="current">HOME</a></li>
                  <li><a href="Upload.jsp">Upload</a></li>
                  <li><a href="DO_ViewFiles.jsp">View Files</a></li>
+                 <li><a href="DO_ViewRequest.jsp">View Request</a></li>
 		 <li><a href="DataOwner.jsp">logout</a></li>
                  
                   
@@ -69,7 +71,7 @@
 	 <td>
 	 <table align="center" width="400" style="border:1px solid green;" bgcolor="#FFFFFF">
              <!--When the form is submitted, the valid() function is called. Prior to the form data being sent to the Adminlog.jsp page, this function can be used to validate it.-->
-		<form name="f" action="Adminlog.jsp" method="post" onSubmit="return valid();">
+		<form name="f" action="Adminlog.jsp" method="post" onSubmit="return valid();"
 		<tr>
 		<td height="36" colspan="2" align="center" bgcolor="#979700" class="paragraping2">
                     <!-- displays Welcome with Username-->
