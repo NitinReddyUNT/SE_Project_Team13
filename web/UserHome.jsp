@@ -1,4 +1,4 @@
-
+<!--This is the data User home page -->
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%> <!--This Import statement sets the character encoding to UTF-8 and the content type to text/html-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -27,7 +27,9 @@
       		<div id="templatemo_menu_left"></div>
             <ul>
                   <li><a href="UserHome.jsp" class="current">Home</a></li>
-                 <li><a href="SearchFile.jsp">Search File</a></li>
+                  <li><a href="SearchFile.jsp">Search File</a></li>
+                  <li><a href="ViewResponse.jsp">View Response</a></li>
+                  <li><a href="U_ViewDownload.jsp">Download</a></li>
 		<li><a href="UserLogin.jsp">LogOut</a></li>
   
               
