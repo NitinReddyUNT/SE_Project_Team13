@@ -57,7 +57,7 @@
                            <th>Owner ID</th><th>File Id</th> <th>File Name</th> <th>Status</th>
                         </tr>
                     <%
-                  
+//Connect with DB and verify if CSP details are correct
 try{
     Connection con=Dbconnection.getConnection();
     Statement st=con.createStatement();
@@ -98,7 +98,7 @@ try{
 
 
 
-
+<!--  Upload files to view the request  -->
 <script type='text/javascript'>
 function loadFileAsText()
 {
