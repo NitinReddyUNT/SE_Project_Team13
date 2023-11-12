@@ -31,7 +31,7 @@
                  <li><a href="Upload.jsp">Upload</a></li>
                  <li><a href="DO_ViewFiles.jsp">View Files</a></li>
                  <li><a href="DO_ViewRequest.jsp">View Request</a></li>
-		 <li><a href="DataOwner.jsp">logout</a></li>
+		 <li><a href="DataOwner.jsp">Logout</a></li>
                  
                   
                    
@@ -75,7 +75,7 @@
 		<tr>
 		<td height="36" colspan="2" align="center" bgcolor="#979700" class="paragraping2">
                     <!-- displays Welcome with Username-->
-                    <span style="color:#FFFFFF"><strong> WelCome : <%=username%> </strong><strong></strong></span></td>
+                    <span style="color:#FFFFFF"><strong> WelCome : <%=username%> && Membership key is: <%=mskey%> </strong><strong></strong></span></td>
 		</tr>
 		
          <td class="paragraping" colspan="2" align="center"><font size="2"><b><%

@@ -35,7 +35,7 @@
                   <li><a href="SearchFile.jsp">Search File</a></li>
                   <li><a href="ViewResponse.jsp" class="current">View Response</a></li>
                   <li><a href="U_ViewDownload.jsp">Download</a></li>
-		  <li><a href="UserLogin.jsp">LogOut</a></li>
+		  <li><a href="UserLogin.jsp">Logout</a></li>
               
                   
                    
@@ -55,9 +55,9 @@
     	<div class="cleaner"></div>
     </div> <!-- end of banner -->
 </div> <!-- end of banner wrapper -->
-
+<!--Retrieve the session's ID, email, mskey, and username-->
 <div id="templatemo_content_wrapper">
-        // Retrieve the session's ID, email, mskey, and username.
+        
 	 <%String username=(String)session.getAttribute("username");
          String mskey=(String)session.getAttribute("mskey");
          String email=(String)session.getAttribute("email");
