@@ -30,7 +30,7 @@
                   <li><a href="SearchFile.jsp">Search File</a></li>
                   <li><a href="ViewResponse.jsp">View Response</a></li>
                   <li><a href="U_ViewDownload.jsp">Download</a></li>
-		<li><a href="UserLogin.jsp">LogOut</a></li>
+		<li><a href="UserLogin.jsp">Logout</a></li>
   
               
                   
@@ -69,7 +69,7 @@
          
          %>
           <!--prints welcome with username.-->
-          <h2>Welcome: <%=username%></h2>
+          <h2>Welcome: <%=username%> && Membership key is: <%=mskey%></h2>
       </td>
 	 
 	 <td>
