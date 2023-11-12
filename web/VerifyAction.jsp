@@ -1,5 +1,5 @@
 <!--author-anjan-->
-
+<%@page import="com.action.decryption"%>
 <%@page import="java.sql.Statement"%><!--SQL statements are run using this class-->
 <%@page import="java.sql.Connection"%><!-- The connection to a database is represented by this class-->
 <%@page import="com.action.Dbconnection"%><!-- There are methods in this custom class for establishing a database connection-->
@@ -32,10 +32,10 @@
       		<div id="templatemo_menu_left"></div>
             <ul>
                   <li><a href="UserHome.jsp">Home</a></li>
-                  <li><a href="SearchFile.jsp" class="current">Search File</a></li>
+                  <li><a href="SearchFile.jsp">Search File</a></li>
                   <li><a href="ViewResponse.jsp" class="current">View Response</a></li>
                   <li><a href="U_ViewDownload.jsp">Download</a></li>
-		  <li><a href="UserLogin.jsp">LogOut</a></li>
+		  <li><a href="UserLogin.jsp">Logout</a></li>
               
                   
                    
@@ -64,6 +64,7 @@
 <%@page import="com.action.Queries"%>
 <%@page import="com.action.Dbconnection"%>
 <%@page import="java.sql.*"%>
+<%@page import="com.action.decryption"%>
    
           <%
          // Retrieve the session's ID, email, mskey, and username.
@@ -75,7 +76,7 @@
           String fid=request.getParameter("fid");
           String fname=request.getParameter("fname");
           // Access the session attribute to obtain the data to be downloaded.
-          String rid=request.getParameter("id");
+          String rid=request.getParameter("rid");
           // Gets the pkey from the request parameters.
           String pkey=request.getParameter("pkey");
          
@@ -122,7 +123,7 @@
                             <th>File Name</th><td><input type="text" name="fname" value="<%=fname%>" required=""></td>
                         </tr>
                          <tr>
-                             <th>File Data</th><td><textarea cols="40" rows="10"><%=file_data%></textarea></td>
+                             <th>File Data</th><td><textarea cols="40" rows="10"><%=data2%></textarea></td>
                         </tr>
                         <tr>
                              <th></th><td><a href="Download.jsp?fid=<%=fid%>&fname=<%=fname%>">Download</a></td>
