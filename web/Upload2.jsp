@@ -1,5 +1,5 @@
 <!--  This code is used to display success message if file upload is successful to database -->
-<!--%@page import="com.action.Ftpcon"%>
+<%@page import="com.action.Ftpcon"%>
 <%@page import="java.io.FileWriter"%>
 <%@page import="jdk.jfr.events.FileWriteEvent"%>
 <%@page import="java.io.File"%>
@@ -28,7 +28,7 @@
 		int i=Queries.getExecuteUpdate("insert into file values(null,'"+id+"','"+fname+"','"+data+"','"+number+"','"+cipher+"',now())");
 		if(i>0)
 		{
-                /*File f=new File("C:\\myproject\\"+fname);
+                File f=new File("C:\\myproject\\"+fname);
                     FileWriter fw=new FileWriter(f);
                     fw.write(cipher);
                     fw.close();
@@ -40,7 +40,7 @@
                 while(rr.next()){
                     cc=rr.getInt(1);
                 }
-                 st.executeUpdate("insert into blockchain values('"+cc+"','"+id+"','"+metadata+"','"+block+"','"+hashcode+"','"+signature+"')");*/
+                 st.executeUpdate("insert into blockchain values('"+cc+"','"+id+"','"+metadata+"','"+block+"','"+hashcode+"','"+signature+"')");
 %>
 <!--File upload successful scenario-->
 <script type="text/javascript">
