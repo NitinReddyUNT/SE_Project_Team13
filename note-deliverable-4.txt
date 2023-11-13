@@ -5,8 +5,6 @@ root
         #docs for deliverable 4: (In Docs)
         /deliverable_4
             Team-Sigma-Deliverable-4.pdf - Full doc of deliverable 4 submission
-            inspection-code-team-sigma - Core functionalities for phase 2 with all the code
         /meeting_minutes -> contains all minutes of meetings from beginning till 11/12
 
-    /phase2 -> includes all code for phase 2
-    /test -> all test files for phase 2
+    /phase2 -> includes all code and tests for phase 2
