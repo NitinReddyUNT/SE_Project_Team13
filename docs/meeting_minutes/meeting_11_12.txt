@@ -1,0 +1,26 @@
+Date : 11/12
+Time : 10:00 - 11:00 PM
+Location : Virtual Zoom
+Attendes :
+1)Jyothi Anjan Manini (Student Id: 11715079)
+2)Akshara Reddy Bathula (Student id: 11713259)
+3)Lakshmichatura Medidi (Student id:11682526)
+4)Sumuk Reddy Kalagiri (Student id: 11702970)
+5)Manoj Kumar bandari (Student id :11711378)
+6)Satya Laxman Pranav Vadlamani (Student id:11701928)
+7)Nitin Reddy Balaiahgari (Student id: 11698724)
+8)Akhila Pam (Student id : 11711224)
+9)Nimitha Bangalore Sathyanarayana (Student id : 11649788)
+
+Agenda :
+* Progress on Documentation and test cases for phase 2 of deliverable 4
+
+Meeting summary:
+1. Issues with Styling was fixed and documentation was split.
+2. UML diagram changes was disucssed to be inline with our deliverable
+3. Documentation needs to be priortised as we had just one day to wrap this deliverable.
+
+Next meeting Agenda :
+* To work on missing part of deliverable 5.
+
+Meeting Duration : 60 Minutes

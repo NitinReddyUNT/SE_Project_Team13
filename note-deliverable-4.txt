@@ -1,0 +1,10 @@
+/*All files and directories for phase2*/
+root
+    /docs -> contains meeting_minutes and deliverable/planning docs
+    /meeting_minutes -> contains all minutes of meetings from 10/26 to 11/12
+        #docs for deliverable 4: (In Docs)
+        /deliverable_4
+            Team-Sigma-Deliverable-4.pdf - Full doc of deliverable 4 submission
+        /meeting_minutes -> contains all minutes of meetings from beginning till 11/12
+
+    /phase2 -> includes all code and tests for phase 2
