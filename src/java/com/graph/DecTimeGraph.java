@@ -24,19 +24,20 @@ import org.jfree.data.category.DefaultCategoryDataset;
  *
  * @author GKV
  */
+// Main function 
 public class DecTimeGraph extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+            throws ServletException, IOException { // throws
         response.setContentType("text/html;charset=UTF-8");
        OutputStream out = response.getOutputStream();
     	   DefaultCategoryDataset bar_chart_servlet = new DefaultCategoryDataset(); 
         try{
            
-               String q="select * from dec_time";
-               ResultSet r=Queries.getExecuteQuery(q);
+               String q="select * from dec_time"; // sql qurery 
+               ResultSet r=Queries.getExecuteQuery(q); //getting result 
                while(r.next()){
-                String name=r.getString("name");
+                String name=r.getString("name"); // getting values
                    
                   
                      int c=r.getInt("count"); 
