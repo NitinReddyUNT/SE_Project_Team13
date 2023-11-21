@@ -28,9 +28,14 @@
     <div id="templatemo_menu">
       		<div id="templatemo_menu_left"></div>
            <ul>
-                 <li><a href="CSPHome.jsp">HOME</a></li>
-                 <li><a href="CSP_ViewALLFIles.jsp"  class="current">View All FIles</a></li> 
+                 <li><a href="CSPHome.jsp"  class="current">HOME</a></li>
+                 <li><a href="CSP_ViewALLFIles.jsp">View All FIles</a></li> 
                  <li><a href="CSP_ViewRequest.jsp">View Requests</a></li>
+                 <li><a href="CSP_ENCTimeGrpah.jsp">Encryption Time Graph</a></li>
+                 <li><a href="CSP_ReENCTimeGrpah.jsp">Re_Encryption Time Graph</a></li>
+                 <li><a href="CSP_DecTimeGrpah.jsp">Decryption Time Graph</a></li>
+                 <li><a href="CSP_download.jsp">All Downloads Graph</a></li>
+                 <li><a href="CSP_AttackedGrpah.jsp">Attacked File Graph</a></li>
                	 <li><a href="CSP.jsp">logout</a></li>
                    
 
