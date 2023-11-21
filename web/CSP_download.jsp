@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Safeguarding the Digital World Data Sharing with Proxy Re-Encryption using Blockchain</title>
+<title>Secure Data Sharing Using Blockchain Technology</title>
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
 <!--style element used for styling the title of the project-->
 <style type="text/css">
