@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Secure data sharing using blockchain technology</title> 
+<title>Secure Data Sharing Using Blockchain Technology</title> 
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
 <!-- Inline CSS -->
 <!-- author: NitinReddyBalaiahgari-->
@@ -47,7 +47,7 @@
 <div id="templatemo_banner_wrapper">
 	<div id="templatemo_banner">
 	  <div id="templatemo_banner_content">
-        	<div class="header_01">Secure data sharing using blockchain technology</div>
+        	<div class="header_01">Secure Data Sharing Using Blockchain Technology</div>
       </div>	
     
     	<div class="cleaner"></div>
