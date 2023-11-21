@@ -5,10 +5,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- title -->
 <title>Secure Data Sharing Using Blockchain Technology</title>
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
-<!-- style sheet -->
+
 <style type="text/css">
 <!--
 .style1 {
@@ -26,14 +25,13 @@
     <div id="templatemo_menu">
       		<div id="templatemo_menu_left"></div>
             <ul>
-                <!--menu-->
                  <li><a href="CSPHome.jsp" >HOME</a></li>
                  <li><a href="CSP_ViewALLFIles.jsp">View All FIles</a></li> 
                  <li><a href="CSP_ViewRequest.jsp">View Requests</a></li>
-                  <li><a href="CSP_ENCTimeGrpah.jsp">Encryption Time Graph</a></li>
+                  <li><a href="CSP_ENCTimeGrpah.jsp"  class="current">Encryption Time Graph</a></li>
                   <li><a href="CSP_ReENCTimeGrpah.jsp">Re_Encryption Time Graph</a></li>
-                  <li><a href="CSP_DecTimeGrpah.jsp"   class="current">Decryption Time Graph</a></li>
-                 <li><a href="CSP_download.jsp">All Downloads Graph</a></li>
+                  <li><a href="CSP_DecTimeGrpah.jsp">Decryption Time Graph</a></li>
+                  <li><a href="CSP_download.jsp">All Downloads Graph</a></li>
                    <li><a href="CSP_AttackedGrpah.jsp">Attacked File Graph</a></li>
                	 <li><a href="CSP.jsp">logout</a></li>
                   
@@ -58,15 +56,21 @@
 <div id="templatemo_content_wrapper">
 	
 	<br />
+
+	
+
 	<table width="1000" border="0">
   <tr>
       <td align="center">
+         
+      
       </td>
+	 
 	 <td>
 	 	
 	 </td>
   </tr>
-            <iframe src="DecTimeGraph" width="1000" height="400"></iframe>
+            <iframe src="EncTimeGraph" width="1000" height="400"></iframe>
 </table>
 
 
