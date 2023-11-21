@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Secure Data Sharing Using Blockchain Technology</title>
+<title>Safeguarding the Digital World Data Sharing with Proxy Re-Encryption using Blockchain</title>
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
@@ -25,14 +25,14 @@
     <div id="templatemo_menu">
       		<div id="templatemo_menu_left"></div>
             <ul>
-                 <li><a href="CSPHome.jsp"  class="current">HOME</a></li>
+                 <li><a href="CSPHome.jsp" >HOME</a></li>
                  <li><a href="CSP_ViewALLFIles.jsp">View All FIles</a></li> 
                  <li><a href="CSP_ViewRequest.jsp">View Requests</a></li>
-                 <li><a href="CSP_ENCTimeGrpah.jsp">Encryption Time Graph</a></li>
-                 <li><a href="CSP_ReENCTimeGrpah.jsp">Re_Encryption Time Graph</a></li>
-                 <li><a href="CSP_DecTimeGrpah.jsp">Decryption Time Graph</a></li>
+                  <li><a href="CSP_ENCTimeGrpah.jsp">Encryption Time Graph</a></li>
+                  <li><a href="CSP_ReENCTimeGrpah.jsp">Re_Encryption Time Graph</a></li>
+                  <li><a href="CSP_DecTimeGrpah.jsp"   class="current">Decryption Time Graph</a></li>
                  <li><a href="CSP_download.jsp">All Downloads Graph</a></li>
-                 <li><a href="CSP_AttackedGrpah.jsp">Attacked File Graph</a></li>
+                   <li><a href="CSP_AttackedGrpah.jsp">Attacked File Graph</a></li>
                	 <li><a href="CSP.jsp">logout</a></li>
                   
                    
@@ -46,7 +46,7 @@
 <div id="templatemo_banner_wrapper">
 	<div id="templatemo_banner">
 	  <div id="templatemo_banner_content">
-        	<div class="header_01">Secure Data Sharing Using Blockchain Technology</div>
+        	<div class="header_01">Safeguarding the Digital World Data Sharing with Proxy Re-Encryption using Blockchain</div>
       </div>	
     
     	<div class="cleaner"></div>
@@ -63,13 +63,14 @@
   <tr>
       <td align="center">
          
-          <h2>Welcome: CSP</h2>
+      
       </td>
 	 
 	 <td>
 	 	
 	 </td>
   </tr>
+            <iframe src="DecTimeGraph" width="1000" height="400"></iframe>
 </table>
 
 
