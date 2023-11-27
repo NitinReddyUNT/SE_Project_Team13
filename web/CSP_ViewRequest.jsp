@@ -38,7 +38,7 @@
                  <li><a href="CSP_DecTimeGrpah.jsp">Decryption Time Graph</a></li>
                  <li><a href="CSP_download.jsp">All Downloads Graph</a></li>
                  <li><a href="CSP_AttackedGrpah.jsp">Attacked File Graph</a></li>
-               	 <li><a href="CSP.jsp">logout</a></li>
+               	 <li><a href="CSP.jsp">Logout</a></li>
                    
 
             </ul>  
@@ -51,7 +51,7 @@
 	<br />
        
 <center>
-<h3>VIEW ALL FILES</h3>
+<h3>VIEW ALL REQUESTS</h3>
 
 	<table width="1000" border="0">
    <%@page import="com.action.Queries"%>
