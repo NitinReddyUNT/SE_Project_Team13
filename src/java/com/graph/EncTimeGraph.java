@@ -2,6 +2,7 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+ * @author nimitha
  */
 package com.graph;
 
@@ -11,6 +12,7 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.sql.ResultSet;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -20,10 +22,8 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
 
-/**
- *
- * @author GKV
- */
+
+@WebServlet(name = "EncTimeGraph", urlPatterns = {"/EncTimeGraph"})
 public class EncTimeGraph extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
