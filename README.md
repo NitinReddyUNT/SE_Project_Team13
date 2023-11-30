@@ -53,32 +53,3 @@ Now, let's proceed to the steps necessary to run this project on your device:
 18) After completing the process, enter ok and close the window and click the run option in the netbeans library to run the project on your local host.
 
 
-**User Manual**
-
-The utilization of blockchain technology for data sharing is encapsulated within a web-based application, which serves as a platform for users to securely store and disseminate their data while preserving a comprehensive record of its usage. Here is the user manual describing the entirety of the web based application and different functionalities of each options in the webpage.
-
-1)We can access the website with the below provided link :
-https://www.securedatasharingubt.cloud/SE_Project_Teamsigma/index.html
-2)First upon opening the link we can see the homepage of the website which contains a mini project description and the team members names including their enrollment id.
-3)Let us browse all of the options by following the given steps. Let us move into the Data Owner option and click on ‘Register’ by providing the following details (Username, Password(of 8 characters), Date of Birth, Email id, Gender, Address, Mobile Number) and we need to click ‘Submit’ to register our account with the database.
-3)If you try to login now, you will get a error message, because as this is a secured platform every new registration needs to be verified by Trusted Authority.
-We can now login as Trusted Authority using the following credentials:
-Username : Authority
-Password : Authority
-4)After we login as Trusted Authority, click on ‘View Owners’ menu and we can see a new registration request has been placed. Now we click on ‘Generate’ to generate a membership key to the new owner so they will be able to login.
-5)Logout the Trusted Authority page and go to Data Owner login and provide your credentials and now you will be able to login. Here in the Data Owner page, click on ‘Upload’ files option, select a text file which you want to upload and click on ‘Upload’.
-6)Now we will be able to view the metadata, Hash code, Digital signature and other necessary details for uploading the files, click on ‘Upload’, now the file will be moved to cloud service provider and upon clicking the ‘View Files’ option data owner will be able to see all the files uploaded by him.
-7)Now logout from Data Owner and move to Data User module and ‘Register’ in the same procedure using steps 3,4,5.
-8)Now login as Data User and you will be able to see the ‘Search file’ option, enter the file name which you have uploaded as Data Owner and click on search button, the file should appear now click on the ‘Request’ to request for downloading the file, now the request will be sent to Data Owner. 
-9)Now login as Data Owner and click on ‘View Request’ option and owner can click on ‘Send Re-Encrypt Request’ then the request will be sent to the proxy server.
-10)Now logout as data user and login as proxy server with the following credentials :
-Username : server
-Password : server
-11)Go to the ‘View Request’ menu in the proxy server and select the file and click on ‘Owner Authenticity with Cloud’ and now the request will be sent to Cloud Service Provider.
-12)Now logout of proxy server and login into Cloud Service Provider with the following credentials : Username : csp
-Password : csp
-13)Now here in Cloud Service Provider, click on ‘View Requests’ option here you will be able to view all the requests and can verify them by clicking on ‘Owner authenticity verify’. This is the re-encryption of our the file in our project by CSP.
-14)Now Logout from CSP and login into Proxy Server with the previously provided credentials and open ‘View URLs’ option and click on the URL generated for your file, this will generate a decrypt key and now the file is ready to decrypt by Data User and decryption keys are sent to Trusted Authority(blockchain) and to Data User.
-15)Now login as Data User and click on ‘View Response’ tab and search for the file you require. Now copy the ‘Private Key’ and click on ‘Decrypt File’ and enter the private key and click on verify and now we will be able to see the file data and download it.
-16) All the files downloaded by Data User can be seen here in ‘Download’ tab.
-17) On clicking ‘View Files’ you will be able to view all the files in the cloud with their ciphered data. In CSP we will also be able to see multiple graphs related to multiple functionalities. Their graphs include Encryption time graph, Re_encryption time graph, Decryption time graph, All download graph.
