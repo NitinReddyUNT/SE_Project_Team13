@@ -56,6 +56,7 @@ Now, let's proceed to the steps necessary to run this project on your device:
 **User Manual**
 
 The utilization of blockchain technology for data sharing is encapsulated within a web-based application, which serves as a platform for users to securely store and disseminate their data while preserving a comprehensive record of its usage. Here is the user manual describing the entirety of the web based application and different functionalities of each options in the webpage.
+
 1)We can access the website with the below provided link :
 https://www.securedatasharingubt.cloud/SE_Project_Teamsigma/index.html
 2)First upon opening the link we can see the homepage of the website which contains a mini project description and the team members names including their enrollment id.
@@ -70,7 +71,8 @@ Password : Authority
 7)Now logout from Data Owner and move to Data User module and ‘Register’ in the same procedure using steps 3,4,5.
 8)Now login as Data User and you will be able to see the ‘Search file’ option, enter the file name which you have uploaded as Data Owner and click on search button, the file should appear now click on the ‘Request’ to request for downloading the file, now the request will be sent to Data Owner. 
 9)Now login as Data Owner and click on ‘View Request’ option and owner can click on ‘Send Re-Encrypt Request’ then the request will be sent to the proxy server.
-10)Now logout as data user and login as proxy server with the following credentials : Username : server
+10)Now logout as data user and login as proxy server with the following credentials :
+Username : server
 Password : server
 11)Go to the ‘View Request’ menu in the proxy server and select the file and click on ‘Owner Authenticity with Cloud’ and now the request will be sent to Cloud Service Provider.
 12)Now logout of proxy server and login into Cloud Service Provider with the following credentials : Username : csp
