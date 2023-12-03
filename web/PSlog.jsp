@@ -23,7 +23,7 @@ if(rs1.next())
 %>
 <%-- Popup for success message --%>
 <script type="text/javascript">
-    window.alert("Authority Login Sucess");
+    window.alert("Proxy Server Login Success");
     window.location="ServerHome.jsp";
     </script>
 <%
