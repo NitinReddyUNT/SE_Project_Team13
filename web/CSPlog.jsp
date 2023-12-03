@@ -23,7 +23,7 @@ if(rs1.next())
 %>
 <%-- Popup to display success message --%>
 <script type="text/javascript">
-    window.alert("CSP Login Success");
+    window.alert("Authority Login Sucess");
     window.location="CSPHome.jsp";
     </script>
 <%
