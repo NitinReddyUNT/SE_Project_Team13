@@ -2,6 +2,7 @@
 root
     /docs -> contains meeting_minutes and deliverable/planning docs
         /User_manual_team_sigma.pdf -> user manual for the application
+        /TEAM SIGMA PPT5.pptx -> presentation for the application
     /meeting_minutes -> contains all minutes of meetings from 11/27 to 12/03
         #docs for deliverable 5: (In Docs)
         /deliverable_5
