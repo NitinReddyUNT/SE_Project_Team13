@@ -1,0 +1,13 @@
+/*All files and directories for phase3*/
+root
+    /docs -> contains meeting_minutes and deliverable/planning docs
+        /User_manual_team_sigma.pdf -> user manual for the application
+    /meeting_minutes -> contains all minutes of meetings from 11/27 to 12/03
+        #docs for deliverable 5: (In Docs)
+        /deliverable_5
+            Team-Sigma-Deliverable-5.pdf - Full doc of deliverable 5 submission
+        /meeting_minutes -> contains all minutes of meetings from beginning till 12/03
+
+    /phase3 -> includes all code and tests for phase 3
+    /note-deliverable-5.txt
+    /presentation.mp4
